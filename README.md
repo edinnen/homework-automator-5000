@@ -5,3 +5,8 @@ Asks for an input sentence then draws the tree and prints tree in LaTeX qtree fo
 Part of Speech tags used:
 
 http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+
+#TODO:
+
+Adjust rules to be more complex and allow subordinate clauses
+  Does not parse "Who said I am a nerd" correctly
