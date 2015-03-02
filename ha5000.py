@@ -17,12 +17,13 @@ N: {<NN.*>} #N -> 'NN'
 V: {<V.*>} #V -> 'VBZ'
 D: {<DT>*} #Det -> 'DT'
 NP: {<ADJP>?<N>} #NP -> Adj N
-DP: {<D><NP>?} #DP -> Det NP | Det
+DP: {<D>*<NP>?} #DP -> Det NP | Det
 VP: {<V><DP>} #VP -> V DP
 ''')
 
 tree = parser.parse(entities)
 
 print(tree.pprint_latex_qtree())
+print(entities)
 
 tree.draw()
