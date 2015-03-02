@@ -12,3 +12,4 @@ http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
 
 - Find a better POS tagger / Figure out how to make a decent POS tagger
   - "The quick brown fox jumped over the lazy dog" parses like it's been huffing glue
+  - Train POS tagger to understand the varied uses for the inflections of "fuck"
