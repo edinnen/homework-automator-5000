@@ -23,7 +23,9 @@ VP: {<V><DP>*<ADJP>*} #VP -> V DP
 
 tree = parser.parse(entities)
 
+print("\n")
 print(tree.pprint_latex_qtree())
+print("\n")
 print(entities)
 
 tree.draw()
