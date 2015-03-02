@@ -1,2 +1,3 @@
-# homework-automator-5000
-NLTK Syntax Tree Generator
+#NLTK Syntax Tree Generator
+
+Asks for an input sentence then draws the tree and prints tree in LaTeX qtree format
