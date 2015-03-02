@@ -15,7 +15,7 @@ ADJ: {<JJ>} #Adj -> 'JJ'
 ADJP: {<ADJ>} #AdjP -> 'Adj'
 N: {<NN.*>} #N -> 'NN'
 V: {<V.*>} #V -> 'VBZ'
-D: {<DT>*} #Det -> 'DT'
+D: {<DT>*<PRP>*} #Det -> 'DT'
 NP: {<ADJP>?<N>} #NP -> Adj N
 DP: {<D>*<NP>?} #DP -> Det NP | Det
 VP: {<V><DP>*<ADJP>*} #VP -> V DP
